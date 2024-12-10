@@ -1,3 +1,69 @@
 body{
-    background-color: blue;
+    background-color: lightseagreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+.push {
+    margin-left: auto;
+}
+.title_logo{
+    background-color: red;
+    color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 30px 0px 20px;
+    
+}
+
+.container_navigation{
+    background-color:blue;
+    padding: 10px 30px 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 999;
+}
+button .current_page{
+    color: rgb(155, 5, 5);
+}
+
+button{
+    background-color: white;
+    border: 5px solid blueviolet;
+    border-radius: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size:18px;
+    padding: 7px;
+    margin: 5px;
+    transition-duration: .4s;
+    /*creates a visual transition
+between when the button is inactive, to
+when a user hovers over the button. */
+}
+button:hover {
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 0 3px darkred ;
+}
+button:active {
+    background-color: rgb(68, 16, 117);
+    border: 5px solid rgb(68, 16, 117);
+    transform: translateY(4px);
+}
+button:after {
+    background-color: rgb(255, 0, 85);
+}
+
+.current_page{
+    background-color: blueviolet;
+    color: white;
 }
