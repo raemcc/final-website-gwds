@@ -1,28 +1,64 @@
 body{
-    background-color: #649137;
+    background-color: #000000;
+    color: #ffffff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+header{
+    background-color: rgb(63, 1, 121);
+}
+main{
+    background-color: #330a33;
+    padding: 10px 0px 10px 0px;
+}
+h1{
+    padding: 30px 0px 0px 0px;
+    margin: 0;
+}
+h2{
+    padding: 5px 0px 0px 0px;
+    margin: 0;
+}
+p{
+    margin: 5px 30px;
+}
+.subtitle{
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.title{
+    color: #b201cd;
+    font-size: 25px;
+    padding: 10px 0px 0px 30px;
+    margin: 0;
+    
+}
 .title_logo{
-    border: 5px solid rgb(206, 177, 10);
-    color: rgb(240, 140, 10);
+    color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: left;
     align-items: center;
-    padding: 0px 30px 0px 20px;
-    
+    padding: 0px 30px 0px 10px;
+
 }
+
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    margin: 0;
 }
+
 .push {
     margin-left: auto;
-    font-size: 40px;
+    padding: 0;
+    font-size: 30px;
 }
+
 .navigation{
-    border: 5px solid rgb(29, 10, 206);
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -38,109 +74,143 @@ body{
 
 button{
     background-color: white;
-    border: 5px solid blueviolet;
+    border: 3px solid blueviolet;
     border-radius: 12px;
+
+    width: 110px;
+    height: 44px;
+    margin: 8px 0px 8px 30px;
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size:20px;
-    padding: 7px;
-    margin: 30px;
-    transition-duration: .4s;
+    font-size:14px;
+    
+    transition-duration: 0.4s;
     /*creates a visual transition
 between when the button is inactive, to
 when a user hovers over the button. */
 }
+
 button:hover {
     background-color: blueviolet;
     color: white;
-    box-shadow: 0 3px darkred ;
+    box-shadow: 0 3px rgb(68, 16, 117) ;
 }
 button:active {
     background-color: rgb(68, 16, 117);
     border: 5px solid rgb(68, 16, 117);
     transform: translateY(4px);
 }
-button:after {
-    background-color: rgb(255, 0, 85);
-}
 
 
-.section_2 {
-    border: 5px solid rgb(124, 19, 28);
+
+.new_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     margin: 0;
-    padding: 1px;
+    padding: 0px 0px 0px 0px;
+    
+    
 }
 
-
-
-
-
-
-.section_1{
-    background-color: lightcoral;
-    margin: 0;
-    padding: 1px;
+.outerColumn {
+display: flex;
+flex-wrap: wrap;
+align-items:center;
+flex-direction: column;
+/*width: 230px;*/
+padding: 0px;
+margin: 15px 15px 0px 15px;
 }
 
-
-.row{
+.columnNoMarg{
     display: flex;
     flex-wrap: wrap;
     align-items:center;
-    border: 5px solid rgb(226, 43, 43);
+    flex-direction: column;
+    /*width: 230px;*/
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    
 }
+
 .column{
     display: flex;
     flex-wrap: wrap;
     align-items:center;
     flex-direction: column;
-    border: 5px solid blueviolet;
+    /*width: 230px;*/
+    padding: 0px;
+    margin: 10px 30px 10px 30px;
     
 }
-
-.row .inside {
-    flex: 1;
-    padding: 10px 10px;
-    border: 5px solid rgb(226, 177, 43);
-}
-
-.inside {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blueviolet;
-    font-size: 20px;
-    width: 200px;
-}
-.img {
-    width: 300px;
-    padding: 10px 10px;
-
-}
-
-.new_box {
+.rowNoMarg{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    
+    align-items:center;
+    padding: 0;
+    margin: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 30px 10px 30px;
 }
 
-.para_2 {
-    background-color: yellowgreen;
-    color: blueviolet;
-    font-size: 20px;
-    width: 200px;
-    height: 150px;
+.captionBig {
     padding: 10px 10px;
-    
-}
-.subtitle{
-    color: rgb(16, 6, 63);
-    font-size: 30px;
-    border: 5px solid rgb(226, 177, 43);
-}
-.title{
-    color: yellow;
-    padding: 0px 0px 0px 20px;
-    border: 5px solid rgb(226, 177, 43);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(128, 0, 4);
+    font-size: 10px;
+    width: 380px;
+    height: 50px;
 }
 
+.captionA4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 179, 255);
+    font-size: 12px;
+    font-weight: bold;
+    width: 220px;
+    height: 60px;
+    padding: 0px 10px 0px 10px;
+}
+.inside {
+    padding: 0px 10px 0px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 179, 255);
+    font-weight: bold;
+    font-size: 13px;
+    width: 210px;
+    height: 60px;
+}
+
+.img {
+    width:230px;
+    padding: 10px 10px;
+
+}
+.display {
+    width:400px;
+    height: 200px;
+}
+
+
+/*CARP*/
+.displayA4 {
+    width:240px;
+    height:340px;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+
+footer{
+    background-color: rgb(63, 1, 121);
+
+}
