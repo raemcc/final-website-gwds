@@ -184,8 +184,9 @@ margin: 15px 15px 0px 15px;
     color: rgb(255, 179, 255);
     font-size: 12px;
     font-weight: bold;
-    text-align: center;
-    height: 60px;
+    text-align: justify;
+    height: 90px;
+    width: 450px;
 
 }
 .inside {
