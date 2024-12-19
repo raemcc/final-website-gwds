@@ -10,6 +10,12 @@ main{
     background-color: #330a33;
     padding: 10px 0px 10px 0px;
 }
+a{
+  color: rgb(225, 0, 255);
+  background-color: transparent;
+  text-decoration: none;
+  }
+
 h1{
     padding: 30px 0px 0px 0px;
     margin: 0;
@@ -20,6 +26,7 @@ h2{
 }
 p{
     margin: 5px 30px;
+    font-size: 18px;
 }
 .subtitle{
     color: blueviolet;
@@ -171,14 +178,14 @@ margin: 15px 15px 0px 15px;
     height: 50px;
 }
 
-.captionA4 {
+.captionA3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 179, 255);
     font-size: 12px;
     font-weight: bold;
-    width: 220px;
+    text-align: center;
     height: 60px;
-    padding: 0px 10px 0px 10px;
+
 }
 .inside {
     padding: 0px 10px 0px 10px;
@@ -198,12 +205,14 @@ margin: 15px 15px 0px 15px;
 .display {
     width:400px;
     height: 200px;
+    margin: 0;
+    margin: 15px 0px;
 }
 
 
 /*CARP*/
-.displayA4 {
-    width:240px;
+.displayA3 {
+    width:220px;
     height:340px;
     margin: 0;
     padding: 10px 10px;
