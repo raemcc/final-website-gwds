@@ -27,6 +27,7 @@ h2{
 p{
     margin: 5px 30px;
     font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .subtitle{
     color: blueviolet;
@@ -197,6 +198,11 @@ margin: 15px 15px 0px 15px;
     height: 60px;
 }
 
+video{
+    width: 340px;
+    height:250px; 
+    margin: 0px 10px 10px 10px;
+}
 .img {
     width:230px;
     padding: 10px 10px;
